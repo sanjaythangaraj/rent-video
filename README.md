@@ -1,4 +1,4 @@
-# Simple REST API with Spring Boot 3 and PostgreSQL
+# REST API with Spring Boot 3 and PostgreSQL secured with Spring Security
 
 This application is written with **Spring Boot 3** and uses **PostgreSQL** as the database. 
 It uses Spring Security with Basic Auth and JWT for authentication and authorization and uses RBAC for secure endpoints.
