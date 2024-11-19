@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=rent-video'
+      - 'POSTGRES_PASSWORD=rent-video'
+      - 'POSTGRES_USER=rent-video'
+    ports:
+      - '5432:5432'
